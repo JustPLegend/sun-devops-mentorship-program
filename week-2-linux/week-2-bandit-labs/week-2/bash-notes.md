@@ -90,3 +90,12 @@ koji postoje u folderu /inhere,a zatim vidimo koji fajl sadrzi ASCII tekst u koj
 ![level8](../level8.png)
    
 # Level 9-10
+
+`grep` - 
+` cat data.txt ` - ispisuje sadržaj fajla data.txt
+
+`grep "==*" data.txt -o` 
+
+`cat data.txt | strings -e s | grep ==`
+
+![level9](../level9.png)
