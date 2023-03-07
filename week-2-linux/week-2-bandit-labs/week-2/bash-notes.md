@@ -5,8 +5,8 @@
     $ ssh -p 2220 bandit0@bandit.labs.overthewire.org 
     ```
 # Level 0-1
-    ***$ pwd**- prikazuje trenutni direktorij u kojem se nalazimo
-    **$ ls** - lista sve fajlove i direktorije
+    ** $ pwd **- prikazuje trenutni direktorij u kojem se nalazimo
+    ** $ ls ** - lista sve fajlove i direktorije
 
 # Level 1-2
 
