@@ -93,6 +93,7 @@ koji postoje u folderu /inhere,a zatim vidimo koji fajl sadrzi ASCII tekst u koj
 # Level 9-10
 
 `grep` - komanda grep služi za pretraživanje određene npr. riječi u fajlu. Ukoliko napišemo `$grep "sun" Imenik.txt`, komanda će pretraživati riječ "sun" u fajlu Imenik.txt
+
 `awk` - pretražuje se neka rijec iz teksta ili se izvršava neka akcija da se pronađe tekst. 
 ` cat data.txt ` - ispisuje sadržaj fajla data.txt
 
