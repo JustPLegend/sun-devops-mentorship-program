@@ -25,7 +25,8 @@ Login na server preko porta (-p) 2220
 
 ![level2](../level-1-2.png)
 # Level 2-3
-`s -l` - lista fajlove unutra direktorija unutar /home/bandit
+`ls -l` - lista fajlove unutra direktorija unutar /home/bandit
+`cat "spaces in this filename" - fajl (spaces in this filename) u sebi sadrži razmak, da bi se ispisao sadržaj ovakvog fajla u Linuxu potrebno je da se stavi pod navodnike naziv fajla. Drugi način za ispis sadržaj je koristeći znak kose crtice (\), bez duplih navodnika. 
 
 Načini ispisivanja sadržaja fajla koji ima razmake u nazivu:
 
@@ -91,7 +92,8 @@ koji postoje u folderu /inhere,a zatim vidimo koji fajl sadrzi ASCII tekst u koj
    
 # Level 9-10
 
-`grep` - 
+`grep` - komanda grep služi za pretraživanje određene npr. riječi u fajlu. Ukoliko napišemo `$grep "sun" Imenik.txt`, komanda će pretraživati riječ "sun" u fajlu Imenik.txt
+`awk` - pretražuje se neka rijec iz teksta ili se izvršava neka akcija da se pronađe tekst. 
 ` cat data.txt ` - ispisuje sadržaj fajla data.txt
 
 `grep "==*" data.txt -o` 
