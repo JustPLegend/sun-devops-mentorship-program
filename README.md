@@ -1,4 +1,4 @@
-## Sun DevOps Mentorship 
+## Sun DevOps Mentorship Program
 
 ```
 
