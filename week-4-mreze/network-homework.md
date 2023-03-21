@@ -3,22 +3,22 @@
 **OSI model i paketi**
 
 
-OSI model je standard koji je razvijen kako bi olaksao razvoj protokola ali i komunikacije. Svaki OSI sloj moze da se razvija neovisno jedan o drugome. Standardizovan je nacin komunikacije između softverskih i hardverskih komponenti koji su ukljuceni u mreznu komunikaciju te kako trebaju podijeliti posao, ali i komunicirati medjusobno.
+OSI model je standard koji je razvijen kako bi olaksao razvoj protokola ali i komunikacije. Svaki OSI sloj moze da se razvija neovisno jedan o drugome. Standardizovan je nacin komunikacije izmedu softverskih i hardverskih komponenti koji su ukljuceni u mreznu komunikaciju te kako trebaju podijeliti posao, ali i komunicirati medjusobno.
 
-VIdeo o OSI modelu za svaki nivo [realni video primjeri](https://www.youtube.com/watch?v=0y6FtKsg6J4)
+Video o OSI modelu za svaki nivo [realni video primjeri](https://www.youtube.com/watch?v=0y6FtKsg6J4)
 
 
 ![week4-mreze](slike/original-seven-layers-of-osi-model.png)
 
-Svaki OSI layer (nivo, sloj) vodi računa o načinima slanja podataka preko svih nivoa. OSI (kao i TCP model) koristi pakete, tj. a u zavisnosti od nivoa, oni se različito nazivaju. Ako se radi o mrežnom nivou OSI modela, onda se podaci šalju u paketima, ako se radi npr. o Data Link nivou (podatkovni nivo) onda se paketi pakiraju u **SEGMENTE**.
+Svaki OSI layer (nivo, sloj) vodi racuna o nacinima slanja podataka preko svih nivoa. OSI (kao i TCP model) koristi pakete, tj. a u zavisnosti od nivoa, oni se razlicito nazivaju. Ako se radi o mreznom nivou OSI modela, onda se podaci salju u paketima, ako se radi npr. o Data Link nivou (podatkovni nivo) onda se paketi pakiraju u **SEGMENTE**.
 
-Kada podaci "putuju" od IZVORA (npr. korisnik koristi laptop da šalje email) oni se "pakiraju" kako bi bili pogodniji za prenos. Ovaj proces se naziva ENKAPSULACIJA. 
-Na svakom OSI nivou, paket dobiva neki dodatak, koji dodatno štiti podatke tj. pakete. 
+Kada podaci "putuju" od IZVORA (npr. korisnik koristi laptop da salje email) oni se "pakiraju" kako bi bili pogodniji za prenos. Ovaj proces se naziva ENKAPSULACIJA. 
+Na svakom OSI nivou, paket dobiva neki dodatak, koji dodatno stiti podatke tj. pakete. 
 
 \
 &nbsp;
 
-Enkapsulacija se odvija na izvoru(PC) koji šalje podatke. 
+Enkapsulacija se odvija na izvoru(PC) koji salje podatke. 
 
 **ENKAPSULACIJA - PROCES OD NIVOA 7 DO NIVOA 1**
 
@@ -34,7 +34,7 @@ Enkapsulacija se odvija na izvoru(PC) koji šalje podatke.
 
 **Poređenje OSI i TCP/IP model**
 
-Razlika između [TCP i OSI modela](https://community.fs.com/blog/tcpip-vs-osi-whats-the-difference-between-the-two-models.html)
+Razlika izmedju [TCP i OSI modela](https://community.fs.com/blog/tcpip-vs-osi-whats-the-difference-between-the-two-models.html)
 
 ![week4-mreze](slike/comparison-of-OSI-and-TCPIP.jpg)
 
@@ -73,10 +73,12 @@ Predstavljanje 8 bita (oktet)
 Pretvaranje iz decimalnog u binarni broj (0 i 1) 
 
 METODA 1 
+
     Ako je broj 1, onda broj koji ga predstavlja se računa. 
     Ako je broj 0, onda broj koji ga predstavlja se ne računa. 
 
 Primjer pretvaranje adrese 192.168.1.0 u binarni broj. 
+
 a) Pretvaranje broja 192 u binarni
 
 ![Pretvaranje broja 192 u binarni](slike/Pretvaranje_decimal_binarno.png)
@@ -86,6 +88,7 @@ b)Pretvaranje broja 168 u binarni
 ![Pretvaranje broja 168 u binarni](slike/broj_168.png)
 
 METODA 2: 
+
     Ako je IP adresa 192.168.3.2, onda se svaki broj podijeli sa dva i u reverznom obliku se pise binarni oblik broja 192.
     Binarni oblik broja 192 je: 110 000 00 (8 bita) 
 
@@ -117,7 +120,7 @@ CCNA 200 - 301 (mrezni uredjaji, TCP/IP model, TCP vs UDP, brojevi portova, IP a
 
 [video](https://www.youtube.com/playlist?list=PLF1hDMPPRqGxpYdo0ctaa7MxfOi9vjs1u)
 
-# Šta je HTTP protokol i zasto ga koristimo? 
+# Sta je HTTP protokol i zasto ga koristimo? 
 
 HTTP - Hyper Transfer Protocol
 
@@ -133,9 +136,9 @@ VIdeo kako HTTPS radi [link na video](https://www.youtube.com/watch?v=w0QbnxKRD0
 # Sta je DNS, zasto nam je potreban i kako radi
 
 DNS - Domain Name System
-DNS je hijerarhijski distribuirani sistem u kojem se mogu nalaziti različite informacije, prije svega o IP adresama, kao i simboličkim nazivima adresa.
+DNS je hijerarhijski distribuirani sistem u kojem se mogu nalaziti razlicite informacije, prije svega o IP adresama, kao i simbolickim nazivima adresa.
 
-Uloga DNS-a je da omogući korisniku da ne pamti IP adrese, nego konkretne nazive web stranice npr. www.google.com jer se mnogo lakse pamte od brojeva (npr. 192.166.3.3)
+Uloga DNS-a je da omoguci korisniku da ne pamti IP adrese, nego konkretne nazive web stranice npr. www.google.com jer se mnogo lakse pamte od brojeva (npr. 192.166.3.3)
 
 [ANIMACIJA - Kako radi DNS](https://www.youtube.com/watch?v=2ZUxoi7YNgs)
 
