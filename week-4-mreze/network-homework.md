@@ -110,7 +110,7 @@ PRIVATNA IP ADRESA koristi se SAMO za internu upotrebu, koja se nalazi iza NAT u
 
 # Ko je klijent i ko je server
 
-# What is the TCP protocol
+# Sta je TCP protokol
 
 TCP - Transmission Control Protocol - standardni protokol koji definiše kako ce "razgovarati" i uspostaviti mrežnu komunikaciju pomocu kojeg ce aplikacije razmijenjivati podatke. 
 
