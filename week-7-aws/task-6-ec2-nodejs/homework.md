@@ -11,12 +11,6 @@
 
 ![ec2-browser](ec2-webserver-nginx.png)
 
-## Potrebne permisije za kreiranje CW alarma, naknadno dodam u repo kreiran CW Alarm
+## CW Alert za troskove
 
-Billing permisije:
-
-![billing-permsije](billing_permisije.png)
-
-## CW Metrics dostupne za kreiranje bez estimated costs
-
-![metrics](cw_metrics.png)
+![cw-troskovi](cw_alert.png)
