@@ -1,16 +1,16 @@
 
 ## Aplikacija na EC2 instanci
 
-![browser-app-ec2](browser-app-ec2.png)
+![browser-app-ec2](screenshoots/browser-app-ec2.png)
 
 ## EC2 stopirana
 
-![ec2-stopirana](ec2-stopped.png)
+![ec2-stopirana](screenshoots/ec2-stopped.png)
 
 ## EC2 konzola i Web browser
 
-![ec2-browser](ec2-webserver-nginx.png)
+![ec2-browser](screenshoots/ec2-webserver-nginx.png)
 
 ## CW Alert za troskove
 
-![cw-troskovi](cw_alert.png)
+![cw-troskovi](screenshoots/cw_alert.png)
