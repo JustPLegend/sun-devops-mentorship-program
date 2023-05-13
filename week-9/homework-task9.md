@@ -31,26 +31,25 @@ Viewer: Redirect HTTP to HTTPS
 
 ![ssl-custom](printscreen/custom-ssl-certificate.png)
 
-**Request certificate:**
+**Request certificate: (potrebno importovati cert)**
 
 ![request](printscreen/requestcert2.png)
 
-**Status pending - cekanje AWS da odobri custom certifiakt za domenu: suncica-pasalic.awsbosnia.com**
 
-![aws-certifikat-pending](printscreen/aws-certifikat-pendin.png)
+**Import certificate using keys**
 
-
+![chain-privkey](printscreen/cert-chain-privkey.png) 
 Screenshots: 
 
-1. Bucket files:
+1. Bucket files:suncica-pasalic-devops-mentorship-program-week-11.s3-website-us-east-1.amazonaws.com
 
 ![bucket-files](printscreen/bucket-files.png)
 
-2. S3 endopint
+2. S3 endopint:
 
 ![s3-endpoint](printscreen/s3-website-endpoint.png)
 
-3.CloudFront endpoint: 
+3.CloudFront endpoint: https://d3pbvv2t4px2oy.cloudfront.net
 
 ![cloud-front-distribucija-endpoint](printscreen/cloud-front-distribucija-endpoint.png)
 
